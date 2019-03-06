@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/personalCenter/personalCenter",
+    "pages/expressService/expressService",
+    "pages/loginAuthorization/login/login",
+    "pages/loginAuthorization/authorization/authorization",
+    "pages/personalCenter/personalSettings/personalSettings",
+    "pages/personalCenter/menuList/feedback/feedback",
+    "pages/personalCenter/menuList/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我们的生活圈子",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#108ee9",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/tabBar/index.png",
+        "selectedIconPath": "static/tabBar/indexHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/personalCenter/personalCenter",
+        "iconPath": "static/tabBar/personalCenter.png",
+        "selectedIconPath": "static/tabBar/personalCenterHL.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "debug": true,
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "我们的生活圈子"
+}

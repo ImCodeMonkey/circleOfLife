@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":true,"appname":"我们的生活圈子","entryPagePath":"pages/tabBar/index/index.html","page":{"pages/tabBar/index/index.html":{"window":{"navigationBarTitleText":"我们的生活圈子","enablePullDownRefresh":true,"backgroundColor":"#f8f8f8","navigationStyle":"custom","titleNView":false}},"pages/tabBar/personalCenter/personalCenter.html":{"window":{"navigationBarTitleText":"个人中心","navigationBarTextStyle":"black","navigationBarBackgroundColor":"#fff","navigationStyle":"custom","titleNView":{"type":"transparent"}}},"pages/expressService/expressService.html":{"window":{"navigationBarTitleText":"快递服务","navigationStyle":"custom","titleNView":false}},"pages/loginAuthorization/login/login.html":{"window":{}},"pages/loginAuthorization/authorization/authorization.html":{"window":{}},"pages/personalCenter/personalSettings/personalSettings.html":{"window":{"navigationBarTitleText":"设置"}},"pages/personalCenter/menuList/feedback/feedback.html":{"window":{}},"pages/personalCenter/menuList/about/about.html":{"window":{}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"我们的生活圈子","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"}},"tabBar":{"color":"#7A7E83","selectedColor":"#108ee9","backgroundColor":"#fff","borderStyle":"black","list":[{"pagePath":"pages/tabBar/index/index.html","iconPath":"static/tabBar/index.png","selectedIconPath":"static/tabBar/indexHL.png","text":"首页"},{"pagePath":"pages/tabBar/personalCenter/personalCenter.html","iconPath":"static/tabBar/personalCenter.png","selectedIconPath":"static/tabBar/personalCenterHL.png","text":"个人中心"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/tabBar/index/index","pages/tabBar/personalCenter/personalCenter","pages/expressService/expressService","pages/loginAuthorization/login/login","pages/loginAuthorization/authorization/authorization","pages/personalCenter/personalSettings/personalSettings","pages/personalCenter/menuList/feedback/feedback","pages/personalCenter/menuList/about/about"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

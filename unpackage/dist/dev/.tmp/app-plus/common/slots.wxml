@@ -1,0 +1,7 @@
+<import src="/components/neil-modal.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/lidada_swiper.vue.wxml" />
+<import src="/node-modules/@dcloudio/uni-ui/lib/uni-grid/uni-grid.vue.wxml" />
+
+<template name="2d3e7346-default-2d3e7346-1"><view class="_view 2d3e7346 uni-list"><radio-group bindchange="handleProxy" data-eventid="{{'2d3e7346-3'}}" data-comkey="{{$k}}" class="_radio-group 2d3e7346"><label class="_label 2d3e7346 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{courierServicesCompany}}" wx:for-index="index" wx:for-item="item"><view class="_view 2d3e7346"><radio value="{{item.ShipperCode}}" checked="{{index === 10000}}" class="_radio 2d3e7346" /></view><view class="_view 2d3e7346">{{item.ShipperName}}</view></label></radio-group></view></template>
+

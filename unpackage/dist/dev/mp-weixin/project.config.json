@@ -1,0 +1,46 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxec71e6f57dfe07f3",
+  "projectname": "我们的生活圈子",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "个人中心",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/tabBar/personalCenter/personalCenter"
+        },
+        {
+          "name": "授权页面",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/loginAuthorization/authorization/authorization"
+        }
+      ]
+    }
+  }
+}

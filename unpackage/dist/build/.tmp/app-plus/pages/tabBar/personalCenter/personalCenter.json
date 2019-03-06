@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationStyle": "custom",
+  "titleNView": {
+    "type": "transparent"
+  }
+}

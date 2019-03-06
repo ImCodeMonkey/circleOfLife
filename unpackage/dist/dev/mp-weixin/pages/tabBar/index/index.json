@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我们的生活圈子",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f8f8f8",
+  "navigationStyle": "custom",
+  "titleNView": false
+}
